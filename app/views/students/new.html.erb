@@ -1,5 +1,5 @@
 <1>Student Form</1>
-<%= form_tag student_path(:id) do %>
+<%= form_tag student_path(params[:id]) do %>
   <label>First Name:</label>
   <%= text_field_tag :"student[first_name]" %>
   
